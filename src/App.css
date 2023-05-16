@@ -1,0 +1,806 @@
+* {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  height: 72px;
+  background-color: white;
+  z-index: 99;
+}
+
+#logo {
+  margin-top: 15px;
+  float: left;
+}
+
+.BarRight {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.BarRight a {
+  margin-right: 35px;
+  text-decoration: none;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: black;
+}
+
+.BarRight button {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: black;
+  width: 231px;
+  height: 68px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.Header {
+  margin-top: 135px; /* Добавляем отступ в 100px, чтобы сдвинуть Header ниже NavBar */
+  width: 100%;
+  height: 570px;
+}
+
+.TitleText {
+  position: relative;
+  float: left;
+  left: 100px;
+}
+.TitleText h1 {
+  width: 531px;
+  height: 231px;
+
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 77px;
+  color: #000000;
+}
+.TitleText p {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.TitleText button {
+  align-items: flex-start;
+  padding: 20px 35px;
+  gap: 10px;
+  width: 264px;
+  height: 68px;
+  background: #191A23;
+  border-radius: 14px;
+  color: #fff;
+}
+.HeaderIllustration {
+  float: right;
+}
+.HeaderIllustration img {
+  position: relative;
+  right: 70px;
+}
+.Logotypes {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.Services {
+  margin-top: 140px;
+  padding: 0px 7px;
+  gap: 10px;
+  margin-left: 70px;
+  width: auto;
+  height: 85px;
+  display: flex;
+}
+.Services h2 {
+  width: 178px;
+  height: 51px;
+  background: #B9FF66;
+  border-radius: 7px;
+
+  text-align: center;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  color: #000000;
+}
+.Services p {
+  position: relative;
+  top: 15px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.CardSelection1 {
+  display: flex;
+}
+
+.CardSelection1,
+.CardSelection2,
+.CardSelection3 {
+  display: flex;
+  margin-top: 100px; /* Добавляем отступ между контейнерами */
+}
+
+.Card1 {
+  margin-left: 100px;
+  width: 600px;
+  height: 310px;
+  background: #F3F3F3;
+  border: 1px solid #191A23;
+  box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+}
+
+.Card2 {
+  margin-left: 100px;
+  width: 600px;
+  height: 310px;
+  background: #F3F3F3;
+  border: 1px solid #191A23;
+  box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+}
+
+.Card3 {
+  margin-left: 100px;
+  width: 600px;
+  height: 310px;
+  background: #F3F3F3;
+  border: 1px solid #191A23;
+  box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+}
+#BlockNum1 {
+  background-color: #F3F3F3;
+}
+#BlockNum2 {
+  background-color: #B9FF66;
+}
+.BlockText1 {
+  float: left;
+  margin-left: 50px;
+}
+.BlockText1 p {
+  background: #B9FF66;
+  border-radius: 7px;
+  width: auto;
+  text-align: left;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+}
+#BlockNum1 img {
+  float: right;
+  margin-right: 50px;
+  margin-top: 75px;
+  width: 210px; 
+  height: 170px;
+}
+#BlockNum2 p{
+  background-color: #fff;
+  border-radius: 20px;
+  line-height: 40px;
+}
+#BlockNum2 img {
+  float: right;
+  margin-right: 50px;
+  margin-top: 75px;
+  width: 210px; 
+  height: 170px;
+}
+#BlockNum3 p{
+  background-color: #fff;
+  border-radius: 20px;
+  line-height: 40px;
+}
+#BlockNum3 {
+  background-color: #1f1d1d;
+}
+#BlockNum3 img {
+  float: right;
+  margin-right: 50px;
+  margin-top: 75px;
+  width: 190px; 
+  height: 170px;
+}
+#BlockNum4 img {
+  float: right;
+  margin-right: 50px;
+  margin-top: 75px;
+  width: 190px; 
+  height: 170px;
+}
+#BlockNum5 {
+  background-color: #B9FF66;
+}
+#BlockNum5 p {
+  background-color: #fff;
+  border-radius: 20px;
+  line-height: 40px;
+}
+#BlockNum5 img {
+  float: right;
+  margin-right: 50px;
+  margin-top: 75px;
+  width: 190px; 
+  height: 170px;
+}
+#BlockNum6 {
+  background-color: #1f1d1d;
+}
+#BlockNum6 img {
+  float: right;
+  margin-right: 50px;
+  margin-top: 75px;
+  width: 190px; 
+  height: 170px;
+}
+#LearnMore {
+  height: 30px;
+  width: 150px;
+}
+#LearnMore img {
+  cursor: pointer;
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+  top: 25px;
+}
+#LearnMore a {
+  color: #000000;
+  text-decoration: none;
+  float: right;
+  position: relative;
+  right: 20px;
+}
+#LearnMore6 {
+  height: 30px;
+  width: 150px;
+}
+#LearnMore6 img {
+  cursor: pointer;
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+  top: 25px;
+}
+#LearnMore6 a {
+  color: #ffffff;
+  text-decoration: none;
+  float: right;
+  position: relative;
+  right: 20px;
+}
+#LearnMore3 {
+  height: 30px;
+  width: 150px;
+}
+#LearnMore3 img {
+  cursor: pointer;
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+  top: 25px;
+}
+#LearnMore3 a {
+  color: #ffffff;
+  text-decoration: none;
+  float: right;
+  position: relative;
+  right: 20px;
+}
+.CtaBlock {
+  margin-top: 123px;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 0px 60px;
+  gap: 275px;
+  width: 1240px;
+  height: 347px;
+  background: #F3F3F3;
+  border-radius: 45px;
+}
+.CtaText {
+  float: left;
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+.CtaText button {
+  cursor: pointer;
+  width: 288px;
+  height: 68px;
+  background: #191A23;
+  border-radius: 14px;
+  color: #fff;
+}
+.CtaBlock img {
+  float: right;
+  position: relative;
+  top: -25px;
+  right: 75px;
+}
+
+.CaseStudies {
+  margin-top: 140px;
+  padding: 0px 7px;
+  gap: 10px;
+  margin-left: 70px;
+  width: auto;
+  height: 85px;
+  display: flex;
+}
+.CaseStudies h2 {
+  width: 300px;
+  height: 51px;
+  background: #B9FF66;
+  border-radius: 7px;
+
+  text-align: center;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  color: #000000;
+}
+.CaseStudies p {
+  position: relative;
+  top: 15px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.CaseStudiesBlock {
+  display: flex;
+  margin-top: 140px;
+  margin-left: 5%;
+  width: 90%;
+  height: 326px;
+  background: #191A23;
+  border-radius: 45px;
+}
+.CaseStudy {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  margin-left: 125px;
+  margin-top: 70px;
+  width: 286px;
+  height: 163px;
+}
+.CaseStudy p {
+  color: #fff;
+}
+.CaseStudy a {
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #B9FF66;
+}
+.CaseStudy img {
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.CaseStudy p {
+  border-right: 1px solid white;
+}
+.WorkingProcess {
+  margin-top: 140px;
+  padding: 0px 7px;
+  gap: 10px;
+  margin-left: 70px;
+  width: auto;
+  height: 150px;
+  display: flex;
+}
+.WorkingProcess h2 {
+  width: 400px;
+  height: 51px;
+  background: #B9FF66;
+  border-radius: 7px;
+
+  text-align: center;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  color: #000000;
+}
+.WorkingProcess p {
+  margin-top: 39px;
+}
+
+.CardNumbers {
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  width: 1234px;
+  height: 180px;
+  background: #F3F3F3;
+  border: 1px solid #191A23;
+  box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+  margin-left: 135px;
+  margin-top: 50px;
+}
+
+.CardNumbersLeft {
+  display: flex;
+}
+
+.CardNumbers h2 {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 77px;
+  color: #000000;
+  margin-left: 25px;
+}
+
+.CardNumbers p {
+  position: relative;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  top: 50px;
+  left: 25px;
+}
+.CardNumberLeft {
+  display: flex;
+}
+.CardNumbers img {
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+.TeamMeet {
+  margin-top: 140px;
+  padding: 0px 7px;
+  gap: 10px;
+  margin-left: 70px;
+  width: auto;
+  height: 100px;
+  display: flex;
+}
+.TeamMeet h2 {
+  width: 150px;
+  height: 51px;
+  background: #B9FF66;
+  border-radius: 7px;
+
+  text-align: center;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  color: #000000;
+}
+.TeamMeet p {
+  margin-top: 39px;
+}
+.RowCards {
+  display: flex;
+  margin-top: 50px;
+}
+.Card {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 40px 35px;
+  gap: 10px;
+  width: 387px;
+  height: 331px;
+  background: #FFFFFF;
+  border: 1px solid #191A23;
+  box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+}
+#SocialIcon { 
+  position: relative;
+  left: 280px;
+  z-index: 1;
+  width: 34px;
+  height: 34px;
+}
+.Card img {
+  cursor: pointer;
+  width: 317px;
+  height: 102.82px;
+}
+.LinePerson {
+  margin-top: 35px;
+  width: 317px;
+  height: 0px;
+  border: 1px solid #000000;
+}
+.Card p {
+  margin-top: 50px;
+  width: 317px;
+  height: 69px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+#SeeAllTeam {
+  color: #fff;
+  width: 269px;
+  height: 68px;
+  left: 1071px;
+  top: 5734px;
+  background: #191A23;
+  border-radius: 14px;
+  border: none;
+  float: right;
+  margin-top: 50px;
+  margin-right: 45px;
+}
+
+.ContactUs {
+  margin-top: 180px;
+  padding: 0px 7px;
+  gap: 10px;
+  margin-left: 70px;
+  width: auto;
+  height: 85px;
+  display: flex;
+  margin-bottom: 140px;
+}
+.ContactUs h2 {
+  width: 230px;
+  height: 51px;
+  background: #B9FF66;
+  border-radius: 7px;
+
+  text-align: center;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  color: #000000;
+}
+.ContactUs p {
+  position: relative;
+  top: 15px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.ContactForms {
+  width: 1240px;
+  height: 773px;
+  background: #F3F3F3;
+  border-radius: 45px;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+.LeftContactForms {
+  float: left;
+  gap: 40px;
+  width: 556px;
+  height: 633px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.RadioButton {
+  display: flex;
+}
+.RadioButton {
+  display: flex;
+  margin-left: -230px;
+}
+
+.RadioButton input[type="radio"] {
+  display: none;
+}
+
+.RadioButton label {
+  margin-left: 25px;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.RadioButton label:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.RadioButton input:checked + label:before {
+  background-color: #B9FF66;
+  border-color: #B9FF66;
+}
+
+.RadioButton label:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%) scale(0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #B9FF66;
+  transition: transform 0.2s ease-in-out;
+}
+
+.RadioButton input:checked + label:after {
+  transform: translateY(-50%) scale(1);
+}
+.ContactInfo {
+  float: left;
+  margin-top: 70px;
+  margin-left: -200px;
+}
+.ContactInfo input{
+  width: 556px;
+  height: 59px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 14px;
+}
+#InputContact {
+  width: 556px;
+  height: 190px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 14px;
+}
+.ContactInfo button {
+  width: 556px;
+  height: 68px;
+  background: #191A23;
+  border-radius: 14px;
+  margin-top: 35px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  cursor: pointer;
+}
+.ContactInfo input::placeholder {
+  font-family: 'Space Grotesk';
+}
+.ContactInfo img {
+  float: right;
+}
+.ContactForms {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.ContactForms img {
+  position: relative;
+}
+
+.PositiviusEnd {
+  width: 1241px;
+  height: 514px;
+  background: #191A23;
+  border-radius: 45px 45px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ContactPls {
+  margin-top: 100px;
+  margin-left: 50px;
+  float: left;
+  color: #FFFFFF;
+}
+.EndInfo {
+  border-top: 1px solid white;
+  color: #fff;
+  position: relative;
+  height: 50px;
+  width: auto;
+  top: 410px;
+}
+.EndInfo a {
+  color: #FFFFFF;
+}
+#Yellowcontact {
+  text-align: center;
+  background-color: #B9FF66;
+  width: 110px;
+  border-radius: 5px;
+  color: #000;
+}
+.ContactPls p {
+  margin-top: 20px;
+}
+.ContactRight {
+  position: relative;
+  top: 100px;
+  left: -50px;
+  float: right;
+  width: 634px;
+  height: 184px;    
+  background: #292A32;
+  border-radius: 14px;
+}
+.ContactRight input {
+  position: relative;
+  width: 285px;
+  height: 67px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  background: #292A32;
+  color: #FFFFFF;
+  left: 50px;
+  top: 50px;
+}
+.ContactRight button {
+  position: relative;
+  width: 249px;
+  height: 68px;
+  background: #B9FF66;
+  border-radius: 14px;
+  top: 50px;
+  left: 70px;
+}
